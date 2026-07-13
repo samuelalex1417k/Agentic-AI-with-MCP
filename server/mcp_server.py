@@ -10,7 +10,7 @@ from tools.search import (
 )
 
 from tools.project import (
-    get_project_structure,
+    get_project_files,
     find_project_config,
     analyze_file,
 )
@@ -29,7 +29,7 @@ mcp.tool()(read_file)
 
 mcp.tool()(search_files)
 
-mcp.tool()(get_project_structure)
+mcp.tool()(get_project_files)
 
 mcp.tool()(find_project_config)
 
